@@ -1,13 +1,47 @@
-# IAGenerativa-Python
-## IA Generativa (DCGAN) que genera rostros humanos, usa el dataset de CelebA 
-1.-Primero descargamos el dataset de CelebA en el siguiente link,
-https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html./n
-2.-En el drive nos dirigimos a la carpeta que dice img.
-3.-Descargamos cualquiera de las dos carpetas que se nos muestran, la única
-diferencia entre cada uno es el formato de las imágenes, png o jpg.
-4.-Una vez descargados todos los archivos, nos dirigimos a nuestra carpeta
-donde tenemos nuestras codigo, y creamos una nueva carpeta llamada
-“data”.
-5.-Dentro de “data”, descomprimimos todos los archivos en conjunto, tienen
-que estar todos para que se puedan abrir. (Si no se tiene el archivo 01, no
-se abrirá ninguno de los demás.)
+# 🧠 IAGenerativa-Python
+
+## IA Generativa (DCGAN) para generación de rostros humanos
+Este proyecto implementa una **Red Generativa Antagónica Profunda (DCGAN)** que genera rostros humanos a partir del dataset **CelebA**.
+
+---
+
+## 📂 Dataset
+Usamos el dataset **CelebA**, disponible de forma pública.
+
+### 📥 Pasos para descargar e instalar el dataset
+
+1. **Descargar CelebA**  
+   Ve al siguiente enlace oficial y descarga el dataset:  
+   🔗 [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+
+2. **Ir a la carpeta `img`**  
+   Dentro del sitio, busca y entra en la carpeta llamada **`img`**.
+
+3. **Elegir el formato de imágenes**  
+   - Puedes descargar cualquiera de las dos carpetas disponibles:  
+     - **PNG**  
+     - **JPG**  
+   La única diferencia es el formato de imagen.
+
+4. **Preparar la carpeta de datos**  
+   - En tu proyecto local, crea una carpeta llamada **`data`**.
+   - Descomprime **todos** los archivos descargados dentro de `data`.
+
+5. **Importante**  
+   - Todos los archivos son necesarios para que el dataset se abra correctamente.  
+   - Si falta, por ejemplo, el archivo **`01`**, ninguno de los demás se podrá abrir.
+
+---
+
+## 🛠 Tecnologías usadas
+- Python 🐍
+- TensorFlow / PyTorch
+- NumPy
+- Matplotlib
+
+---
+
+## 📄 Licencia
+Este proyecto es de uso académico y experimental.  
+CelebA tiene sus propios términos de uso:  
+🔗 [Licencia CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
