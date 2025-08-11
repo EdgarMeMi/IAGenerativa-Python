@@ -35,8 +35,7 @@ Usamos el dataset **CelebA**, disponible de forma pública.
 
 ## 🛠 Tecnologías usadas
 - Python 🐍
-- TensorFlow / PyTorch
-- NumPy
+- PyTorch
 - Matplotlib
 
 ---
