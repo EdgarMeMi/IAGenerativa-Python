@@ -1,7 +1,7 @@
 # IAGenerativa-Python
 ## IA Generativa (DCGAN) que genera rostros humanos, usa el dataset de CelebA 
 1.-Primero descargamos el dataset de CelebA en el siguiente link,
-https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
+https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html./n
 2.-En el drive nos dirigimos a la carpeta que dice img.
 3.-Descargamos cualquiera de las dos carpetas que se nos muestran, la única
 diferencia entre cada uno es el formato de las imágenes, png o jpg.
